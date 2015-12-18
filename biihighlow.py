@@ -1,6 +1,6 @@
-# !/usr/bin/python
-# High Low Game
-# Author: bii811
+#!/usr/bin/python
+#High Low Game
+#Author: bii811
 
 import random, os, sys
 
