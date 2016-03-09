@@ -13,16 +13,16 @@ while(1):
 	os.system("cls")
 	random.seed()
 
-	print("#######################################################")
+	print("#"*55)
 	print("#######  Welcome to High Low Game              ########")
 	print("#######  Author: bii811                        ########")
-	print("#######################################################\n")
+	print("#"*55,"\n")
 
-	print("=======================")
+	print("="*23)
 	print("   Max win in a row: %s" % maxWin)
 	print("   Win:  %s" % winScore)
 	print("   Lose: %s" % loseScore)
-	print("=======================")
+	print("="*23)
 	
 	rndnum1 = random.randint(0, 10);
 	print("\nGuess next number will be lower or higher than [ %s ] ?" % rndnum1)
